@@ -98,6 +98,7 @@ header {
     font-size: 20px;
     margin: 20px 0px 30px 50px;
     cursor: pointer;
+    text-align: right;
 }
 
 #srch {
@@ -124,6 +125,7 @@ header {
     border: 1px solid #ffa880;
     color: #fff;
     outline: none;
+    width:250px;
 }
 
 #search button:hover {
