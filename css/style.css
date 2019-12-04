@@ -123,10 +123,7 @@ header {
     background-color: #000;
     border: 1px solid #ffa880;
     color: #fff;
-    outline:none;
-}
-#search input:focus {
-    border:1px solid #fff;
+    outline: none;
 }
 
 #search button:hover {
