@@ -653,7 +653,7 @@ input:focus {
     color: #fff;
 }
 
-.contact #maps {
+.contact #maps iframe {
     width: 400px;
     height: 250px;
     border: 1px solid #fff;
