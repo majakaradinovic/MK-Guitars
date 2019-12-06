@@ -85,17 +85,14 @@
                                 <a href="https://www.instagram.com/" class="fa fa-instagram" id="icon"></a>
                             </p>
                             <div id="maps"></div>
-                            <script async defer
-                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS3OosgTK_zcPLZuiI4G2TL_MncR04T9s&callback=initMap">
-                            </script>
                             <script>
                                 function initMap() {
                                     var test = {
-                                        lat: 44.814899,
-                                        lng: 20.483815
+                                        lat: 44.814514,
+                                        lng: 20.483899
                                     };
                                     var map = new google.maps.Map(document.getElementById('maps'), {
-                                        zoom: 17,
+                                        zoom: 4,
                                         center: test
                                     });
                                     var marker = new google.maps.Marker({
@@ -104,7 +101,9 @@
                                     });
                                 }
                             </script>
-
+                            <script async defer
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS3OosgTK_zcPLZuiI4G2TL_MncR04T9s&callback=initMap">
+                            </script>
                         </div>
                         <div class="contact1">
                             <form>
